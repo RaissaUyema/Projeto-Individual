@@ -7,6 +7,7 @@ body {
     background-color: black;
     height: 100vh;
     width: 100%;
+    /* overflow-x: hidden;  */
 }
 
 .header{
@@ -93,6 +94,8 @@ body {
 }
 
 
+
+
 .container3 {
     display: flex;
     justify-content: center;
@@ -102,12 +105,12 @@ body {
 .container3 .slider {
     margin: 0 auto;
     width: 800px;
-    height: 400px;
+    height: 900px;
     overflow: hidden;
 }
 
 .container3 .slider .slides {
-    width: 200%;
+    width: 400%;
     height: 150px;
     display: flex;
 }
@@ -138,4 +141,25 @@ body {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 1s;
 }
+
+.container3 .slider .manual_navegacao .manual_botao:not(:last-child){
+    margin-right: 40px;
+    background-color: white;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+#radio4:checked ~ .primeiro{
+    margin-left: -75%;
+}
+
+
