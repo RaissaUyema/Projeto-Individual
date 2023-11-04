@@ -7,7 +7,6 @@ body {
     background-color: black;
     height: 100vh;
     width: 100%;
-    /* overflow-x: hidden;  */
 }
 
 .header{
@@ -100,35 +99,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
-.container3 .slider {
+.slider{
     margin: 0 auto;
     width: 800px;
-    height: 900px;
+    height: 400px;
     overflow: hidden;
 }
 
-.container3 .slider .slides {
+.slides {
     width: 400%;
-    height: 150px;
+    height: 400px;
     display: flex;
+    
 }
 
-.container3 .slides input {
+.slides input {
     display: none;
 }
 
-.container3 .slider .slide {
+.slide {
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
-.container3 .slider .slide img{
+ .slide img{
     width: 800px;
 }
 
-.container3 .slider .manual_navegacao {
+.manual_navegacao {
     position: absolute;
     width: 800px;
     margin-top: -40px;
@@ -136,30 +138,77 @@ body {
     justify-content: center;
 }
 
-.container3 .slider .manual_navegacao .manual_botao {
-    border: 2px solid white;
+ .manual_botao {
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+ 
+.manual_botao:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual_botao:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navegacao div{
+    border: 2px solid #20a6ff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 
-.container3 .slider .manual_navegacao .manual_botao:not(:last-child){
+.navegacao{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao div:not(:last-child){
     margin-right: 40px;
-    background-color: white;
 }
 
-#radio1:checked ~ .primeiro{
-    margin-left: 0;
+#radio1:checked ~ .navegacao .auto_botao1{
+    background-color: #FFF;
 }
-#radio2:checked ~ .primeiro{
-    margin-left: -25%;
+#radio2:checked ~ .navegacao .auto_botao2{
+    background-color: #FFF;
 }
-#radio3:checked ~ .primeiro{
-    margin-left: -50%;
+#radio3:checked ~ .navegacao .auto_botao3{
+    background-color: #FFF;
 }
-#radio4:checked ~ .primeiro{
-    margin-left: -75%;
+#radio4:checked ~ .navegacao .auto_botao4{
+    background-color: #FFF;
 }
 
-
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.container4 p {
+    color: white;
+    font-size: 30px;
+}
