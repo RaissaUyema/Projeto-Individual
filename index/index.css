@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
 }
@@ -28,15 +28,18 @@ body {
     border-radius: 30px;
 }
 
-
+.main {
+    display: flex;
+    justify-content: center;
+}
 
 .main .container2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 500px;
 }
 
 .main .container2 .conteudo {
@@ -44,14 +47,22 @@ body {
     flex-direction: column;
     height: 100%;
     width: 50%;
+    justify-content: space-evenly;
+    padding: 0 50px;
 }
 
+.main .container2 .conteudo .titulo {
+    display: flex;
+    flex-direction: column;
+}
 
-.main .container2 .conteudo h1 {
+.main .container2 .conteudo .titulo h1 {
     font-size: 100px;
+    width: 100%;
+    text-align: center;
 }
 
-.main .container2 .conteudo h3 {
+.main .container2 .conteudo .titulo h3 {
     display: flex;
     font-size: 40px;
     justify-content: flex-end;
@@ -61,15 +72,70 @@ body {
     font-size: 30px;
 }
 
-.main .container2 .conteudo button{
-    width: 250px;
+.main .container2 .conteudo .botao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.main .container2 .conteudo .botao button{
+    background-color: white;
+    width: 40%;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 15px;
+    font-size: 20px;
 }
 
 .main .container2 .imagem_home {
     justify-content: center;
     display: flex;
-    
+}
 
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.container3 .slider .slides {
+    width: 200%;
+    height: 150px;
+    display: flex;
+}
+
+.container3 .slides input {
+    display: none;
+}
+
+.container3 .slider .slide {
+    width: 25%;
+    position: relative;
+}
+
+.container3 .slider .slide img{
+    width: 800px;
+}
+
+.container3 .slider .manual_navegacao {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .slider .manual_navegacao .manual_botao {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }

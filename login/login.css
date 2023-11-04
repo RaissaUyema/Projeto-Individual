@@ -4,7 +4,7 @@
  }  
  
  body {
-    background-image: url(./imagem/VILAR.jpg);
+    background-image: url(../imagem/VILAR.jpg);
     backdrop-filter: brightness(0.3);
     background-size: cover;
     background-repeat: no-repeat;
