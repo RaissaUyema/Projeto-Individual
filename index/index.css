@@ -92,6 +92,11 @@ body {
     font-size: 20px;
 }
 
+.main .container2 .conteudo .botao button a{
+    text-decoration: none;
+    color: black;
+}
+
 .main .container2 .imagem_home {
     justify-content: center;
     display: flex;
