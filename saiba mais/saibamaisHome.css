@@ -15,7 +15,7 @@
 
  .header .logo{
     padding: 5px;
-    width: 50%;
+    width: 55%;
  }
 
 .header .titulo {
@@ -28,24 +28,24 @@
  .header .titulo p{
     color: white;
     font-size: 50px;
- }
+ } 
 
  .header .botao_home{
-    width: 20%;
+    width: 33%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 5px;
+    padding: 7px;
  }
  .header .botao_home button{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 35px;
-    width: 35%;
+    width: 27.3%;
     border-radius: 15px;
     font-size: 20px;
-    background-color:  rgba(207, 89, 21, 0.447);;
+    background-color:  rgba(207, 89, 21, 0.447);
  }
  .header .botao_home button a{
     text-decoration: none;
