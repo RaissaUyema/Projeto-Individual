@@ -45,7 +45,7 @@
     width: 35%;
     border-radius: 15px;
     font-size: 20px;
-    background-color: rgb(207, 89, 21);
+    background-color: rgba(207, 89, 21, 0.447);
  }
  .header .botao_home button a{
     text-decoration: none;
@@ -61,7 +61,7 @@
     padding: 0 70px;
     width: 20%;
     height: 550px;
-    margin-top: 18px;
+    margin-top: 25px;
  }
 
  .container .texto{
