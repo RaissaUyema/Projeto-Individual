@@ -310,35 +310,45 @@ body {
 .container6 .saibamaisClassico .h1{
     display: flex;
     width: 80%;
-    height: 70px;
+    height: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    font-size: 30px;
 
     border: 1px solid white;
 }
 .container6 .saibamaisClassico .paragrafo{
     display: flex;
     width: 80%;
-    height: 70px;
+    height: 200px;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
 
     border: 1px solid white;
 }
 .container6 .saibamaisClassico .botao{
     display: flex;
     width: 80%;
-    height: 70px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 
     border: 1px solid white;
 }
+.container6 .saibamaisClassico .botao button{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+}
 
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
-    margin-left: 700px;
     border: 1px solid white;
+    position: absolute;
+    right: 0%;
+    bottom: -208%;
+    margin-right: 140px;
 }
 
 
