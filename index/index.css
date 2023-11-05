@@ -291,21 +291,38 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.container6 .saibamaisClassico{
-    display: flex;
-    background-color: blue;
-    width: 50%;
-    height: 540px;
+    z-index: 0;
 
     border: 1px solid white;
 }
-.container6 .saibamaisShippuden {
+
+.container6 .saibamais .saibamaisClassico{
+    display: flex;
+    background-color: blue;
+    width: 50%;
+    height: 400px;
+    margin: 70px;
+
+    border: 1px solid white;
+}
+.container6 .saibamais .saibamaisClassico .imagem_classico{
+    z-index: 1;
+
+    border: 1px solid white;
+}
+
+.container6 .saibamais .saibamaisShippuden {
     display: flex;
     background-color: rgb(255, 0, 174);
     width: 50%;
-    height: 540px;
+    height: 400px;
+    margin: 50px;
+
+    border: 1px solid white;
+}
+.container6 .saibamais .saibamaisShippuden .imagem_shippuden{
+    z-index: 1;
+    width: 80%;
 
     border: 1px solid white;
 }
