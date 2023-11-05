@@ -235,13 +235,11 @@ body {
 .container5 {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 550px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-
-    border: 1px solid white;
+    margin-top: 15px;
 }
 
 .container5 .imagem_jogo{
@@ -286,6 +284,7 @@ body {
     border: 1px solid white;
 }
 
+
 .container6 .saibamais{
     display: flex;
     align-items: center;
@@ -298,7 +297,7 @@ body {
 
 .container6 .saibamais .saibamaisClassico{
     display: flex;
-    background-color: blue;
+    background-color: #0B3B7D;
     width: 50%;
     height: 400px;
     margin: 70px;
@@ -313,7 +312,8 @@ body {
     height: 100px;
     align-items: center;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
 
     border: 1px solid white;
 }
@@ -323,7 +323,8 @@ body {
     height: 200px;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 35px;
+    color: white;
 
     border: 1px solid white;
 }
@@ -347,8 +348,8 @@ body {
     border: 1px solid white;
     position: absolute;
     right: 0%;
-    bottom: -208%;
-    margin-right: 140px;
+    bottom: -215%;
+    margin-right: 230px;
 }
 
 
@@ -360,12 +361,59 @@ body {
     width: 50%;
     height: 400px;
     margin: 50px;
+    flex-direction: column;
 
     border: 1px solid white;
 }
+
+.container6 .saibamais .saibamaisShippuden .h1{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 40px;
+    color: white;
+
+    border: 1px solid white;
+}
+.container6 .saibamais .saibamaisShippuden .paragrafo{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+
+    border: 1px solid white;
+}
+
+.container6 .saibamais .saibamaisShippuden .botao{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid white;
+}
+
+.container6 .saibamais .saibamaisShippuden .botao button{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+
 .container6 .saibamais .saibamaisShippuden .imagem_shippuden{
     z-index: 1;
-    margin-left: 300px;
+    border: 1px solid white;
+    position: absolute;
+    right: 0%;
+    bottom: -300%;
+    margin-right: 230px;
 
     border: 1px solid white;
 }
