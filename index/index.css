@@ -106,6 +106,7 @@ body {
 
 
 
+
 .container3 {
     display: flex;
     justify-content: center;
@@ -257,8 +258,8 @@ body {
 }
 .container5 .botao_jogo button{
     background-color: rgba(255, 68, 0, 0.742);
-    width: 30%;
-    height: 30px;
+    width: 35%;
+    height: 40px;
     border-radius: 15px;
 }
 .container5 .botao_jogo button a {
@@ -324,6 +325,9 @@ body {
     width: 30%;
     height: 50px;
     border-radius: 20px;
+    color: black;
+    font-size: 30px;
+    box-shadow: 0.1em 0.1em orangered;
 }
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
@@ -371,6 +375,8 @@ body {
     width: 30%;
     height: 50px;
     border-radius: 20px;
+    color: black;
+    font-size: 30px;
 }
 .container6 .saibamais .saibamaisShippuden .imagem_shippuden{
     z-index: 1;
@@ -379,3 +385,4 @@ body {
     bottom: -290%;
     margin-right: 230px;
 }
+
