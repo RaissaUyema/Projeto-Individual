@@ -235,7 +235,7 @@ body {
 .container5 {
     display: flex;
     width: 100%;
-    height: 550px;
+    height: 630px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -283,8 +283,6 @@ body {
 
     border: 1px solid white;
 }
-
-
 .container6 .saibamais{
     display: flex;
     align-items: center;
@@ -305,7 +303,6 @@ body {
 
     border: 1px solid white;
 }
-
 .container6 .saibamaisClassico .h1{
     display: flex;
     width: 80%;
@@ -342,18 +339,14 @@ body {
     height: 50px;
     border-radius: 20px;
 }
-
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
     border: 1px solid white;
     position: absolute;
     right: 0%;
-    bottom: -215%;
+    bottom: -228%;
     margin-right: 230px;
 }
-
-
-
 
 .container6 .saibamais .saibamaisShippuden {
     display: flex;
@@ -372,7 +365,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: flex-start;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
 
     border: 1px solid white;
@@ -388,7 +381,6 @@ body {
 
     border: 1px solid white;
 }
-
 .container6 .saibamais .saibamaisShippuden .botao{
     display: flex;
     width: 80%;
@@ -398,21 +390,17 @@ body {
 
     border: 1px solid white;
 }
-
 .container6 .saibamais .saibamaisShippuden .botao button{
     width: 30%;
     height: 50px;
     border-radius: 20px;
 }
-
-
-
 .container6 .saibamais .saibamaisShippuden .imagem_shippuden{
     z-index: 1;
     border: 1px solid white;
     position: absolute;
     right: 0%;
-    bottom: -300%;
+    bottom: -305%;
     margin-right: 230px;
 
     border: 1px solid white;
