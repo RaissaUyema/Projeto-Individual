@@ -17,11 +17,11 @@ body {
     padding-top: 10px;
     width: 96vw;
     position: fixed;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.61);
     z-index: 2;
     height: 75px;
 
-    border: 1px solid orange;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .header p {
@@ -34,7 +34,6 @@ body {
     height: 46px;
     border-radius: 30px;
     font-size: 30px;
-    /* cursor: pointer; */
 }
 
 .header button a{
@@ -45,8 +44,6 @@ body {
 .main {
     display: flex;
     justify-content: center;
-
-    border: 1px solid white;
 }
 
 .main .container2{
@@ -114,7 +111,7 @@ body {
 .main .container2 .imagem_home {
     justify-content: center;
     display: flex;
-    margin-top: 65px;
+    margin-top: 120px;
 }
 
 
@@ -359,7 +356,7 @@ body {
 
 .container6 .saibamais .saibamaisShippuden {
     display: flex;
-    background-color: hsla(200, 4%, 14%, 0.8);
+    background-color: #212526cc;
     width: 50%;
     height: 400px;
     margin: 50px;
@@ -402,7 +399,7 @@ body {
     z-index: 1;
     position: absolute;
     right: 0%;
-    bottom: -305%;
+    bottom: -296%;
     margin-right: 180px;
 }
 
