@@ -15,6 +15,13 @@ body {
     justify-content: space-between;
     padding: 2%;
     padding-top: 10px;
+    width: 96vw;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+    height: 75px;
+
+    border: 1px solid orange;
 }
 
 .header p {
@@ -24,7 +31,7 @@ body {
 
 .header button {
     width: 250px;
-    height: 50px;
+    height: 46px;
     border-radius: 30px;
     font-size: 30px;
     /* cursor: pointer; */
@@ -38,6 +45,8 @@ body {
 .main {
     display: flex;
     justify-content: center;
+
+    border: 1px solid white;
 }
 
 .main .container2{
@@ -47,6 +56,9 @@ body {
     color: white;
     width: 90%;
     height: 500px;
+    margin-top: 90px;
+
+    margin-top: 90px;
 }
 
 .main .container2 .conteudo {
@@ -102,6 +114,7 @@ body {
 .main .container2 .imagem_home {
     justify-content: center;
     display: flex;
+    margin-top: 65px;
 }
 
 
@@ -281,6 +294,7 @@ body {
     background-image: url(../imagem/quadrinho.jpg);
     background-size: contain;
 }
+     
 /* .container6 .imagem_quadrinho{ */
     /* position: absolute; */
     /* z-index: -1; */
@@ -301,6 +315,7 @@ body {
     height: 400px;
     margin: 70px;
     flex-direction: column;
+    align-items: flex-end;
 }
 .container6 .saibamaisClassico .h1{
     display: flex;
@@ -338,9 +353,8 @@ body {
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
     position: absolute;
-    right: 0%;
+    left: 0%;
     bottom: -220%;
-    margin-right: 230px;
 }
 
 .container6 .saibamais .saibamaisShippuden {
@@ -388,8 +402,8 @@ body {
     z-index: 1;
     position: absolute;
     right: 0%;
-    bottom: -300%;
-    margin-right: 230px;
+    bottom: -305%;
+    margin-right: 180px;
 }
 
 .container7{
