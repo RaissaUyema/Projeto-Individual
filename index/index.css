@@ -440,14 +440,17 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container8 .sobre_mim{
-    width: 50%;
+.container8 .sobre .sobre_mim{
+    width: 40%;
     height: 400px;
 
     border: 1px solid white;
 }
-.container8 .valores{
-    width: 50%;
+.container8 .sobre_mim p{
+    color: white;
+}
+.container8 .sobre .valores{
+    width: 40%;
     height: 400px;
 
     border: 1px solid white;
