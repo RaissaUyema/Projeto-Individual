@@ -1,5 +1,5 @@
 let count = 1; 
-let vaiVolta = 0
+let vaiVolta = true;
 document.getElementById("radio1").checked = true; 
 
 setInterval( function() {     
@@ -8,18 +8,16 @@ setInterval( function() {
     
     function nextImage() {     
         
-        if (count < 4 && vaiVolta == 0){
-        count++
-        vaiVolta = 0;     
+        if (count < 4 && vaiVolta == true){
+        count++   
     }
-    else {vaiVolta = 1}
+    else {vaiVolta = false}
 
-    if (count > 1 && vaiVolta == 1){
+    if (count > 1 && vaiVolta == false){
         count--
-        vaiVolta = 1;
     }
     
-    else {vaiVolta = 0}
+    else {vaiVolta = true}
 
         document.getElementById("radio"+count).checked = true;  
     }

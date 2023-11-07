@@ -34,6 +34,7 @@ body {
     height: 46px;
     border-radius: 30px;
     font-size: 30px;
+    background-color: #EE7331;
 }
 
 .header button a{
@@ -96,7 +97,7 @@ body {
 }
 
 .main .container2 .conteudo .botao button{
-    background-color: white;
+    background-color: #EE7331;
     width: 40%;
     height: 50px;
     border-radius: 15px;
@@ -124,7 +125,6 @@ body {
     align-items: center;
     margin-top: 100px;
 }
-
 .slider{
     margin: 0 auto;
     width: 100%;
@@ -132,29 +132,24 @@ body {
     padding: 0 25%;
     overflow: hidden;
 }
-
 .slides {
     width: 400%;
     height: 400px;
     display: flex;
     
 }
-
 .slides input {
     display: none;
 }
-
 .slide {
     width: 25%;
     position: relative;
     transition: 2s;
     margin: 0 10%;
 }
-
  .slide img{
     width: 800px;
 }
-
 .manual_navegacao {
     position: absolute;
     width: 800px;
@@ -162,7 +157,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
  .manual_botao {
     border: 2px solid #FFF;
     padding: 5px;
@@ -170,31 +164,24 @@ body {
     cursor: pointer;
     transition: 1s;
 }
- 
 .manual_botao:not(:last-child){
     margin-right: 40px;
 }
-
 .manual_botao:hover{
     background-color: #FFF;
 }
-
 #radio1:checked ~ .first{
     margin-left: 0%;
 }
-
 #radio2:checked ~ .first{
     margin-left: -45%;
 }
-
 #radio3:checked ~ .first{
     margin-left: -90%;
 }
-
 #radio4:checked ~ .first{
     margin-left: -135%;
 }
-
 .navegacao div{
     border: 2px solid #20a6ff;
     padding: 5px;
@@ -202,7 +189,6 @@ body {
     cursor: pointer;
     transition: 1s;
 }
-
 .navegacao{
     position: absolute;
     width: 800px;
@@ -210,11 +196,9 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .navegacao div:not(:last-child){
     margin-right: 40px;
 }
-
 #radio1:checked ~ .navegacao .auto_botao1{
     background-color: #FFF;
 }
@@ -227,6 +211,10 @@ body {
 #radio4:checked ~ .navegacao .auto_botao4{
     background-color: #FFF;
 }
+
+
+
+
 
 .container4 {
     display: flex;
@@ -244,12 +232,10 @@ body {
 
 
 
-
-
 .container5 {
     display: flex;
     width: 100%;
-    height: 630px;
+    height: 730px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -270,10 +256,11 @@ body {
     justify-content: center;
 }
 .container5 .botao_jogo button{
-    background-color: rgba(255, 68, 0, 0.742);
+    background-color: #EE7331;
     width: 35%;
     height: 40px;
     border-radius: 15px;
+    font-size: 20px;
 }
 .container5 .botao_jogo button a {
     text-decoration: none;
@@ -339,13 +326,14 @@ body {
     border-radius: 20px;
     color: black;
     font-size: 30px;
-    box-shadow: 0.1em 0.1em rgb(0, 0, 0) 1);
+    box-shadow: 0.1em 0.1em rgb((0, 0, 0) 1);
+    background-color: #EE7331;
 }
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
     position: absolute;
     left: 0%;
-    bottom: -220%;
+    bottom: -230%;
 }
 
 .container6 .saibamais .saibamaisShippuden {
@@ -388,12 +376,13 @@ body {
     border-radius: 20px;
     color: black;
     font-size: 30px;
+    background-color: #EE7331;
 }
 .container6 .saibamais .saibamaisShippuden .imagem_shippuden{
     z-index: 1;
     position: absolute;
     right: 0%;
-    bottom: -296%;
+    bottom: -310%;
     margin-right: 180px;
 }
 
