@@ -12,12 +12,14 @@
 
  .header{
     display: flex;
+    justify-content: flex-end;
  }
 
  .header .logo{
     padding: 5px;
     width: 55%;
-     
+    position: fixed;
+    left: 0;
  }
 
 .header .titulo {
@@ -66,23 +68,20 @@
    height: 100vh;
    display: flex;
    justify-content: flex-end;
-
-   border: 1px solid white;
-}
+ }
  .container .imagem{
     width: 20%;
     height: 550px;
     margin-top: 5px;
     position: fixed; 
     left: 0;
+    padding: 19px;
  }
  .container .historia{
    width: 77%;
    height: 100vh;
    display: flex;
    flex-direction: column;
-
-   border: 1px solid white;
 } 
 
 /* parte1 */
@@ -100,6 +99,7 @@
    justify-content: space-around;
    width: 100%;
    height: 240px;
+   align-items: center;
  }
  .container .historia .parte1 .texto p{
     font-family: Arial, Helvetica, sans-serif;
@@ -121,7 +121,7 @@
  }
  .container .historia .parte2 .texto{
       width:100% ;
-      height: 250px;
+      height: 350px;
       display: flex;
       flex-direction: column;
 
@@ -131,6 +131,7 @@
 .container .historia .parte2 .imagens{
    display: flex;
    justify-content: space-around;
+   align-items: center;
 }
 
  
@@ -153,6 +154,7 @@
 .container .historia .parte3 .imagens{
    display: flex;
    justify-content: space-around;
+   align-items: center;
 }
    
 /* parte4 */
@@ -174,6 +176,7 @@
 .container .historia .parte4 .imagens{
    display: flex;
    justify-content: space-around;
+   align-items: center;
 }
 
 /* parte5 */
@@ -195,4 +198,28 @@
 .container .historia .parte5 .imagens{
    display: flex;
    justify-content: space-around;
+   align-items: center;
+}
+
+
+/* parte6 */
+.container .historia .parte6{
+   width:100% ;
+   height: 500px;
+   background-color: rgb(165, 108, 42);
+   
+ }
+ .container .historia .parte6 .texto{
+      width:100% ;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+
+      font-size: 25px;
+      color: white;
+   }
+.container .historia .parte6 .imagens{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
