@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+ 
 body {
     background-color: black;
     height: 100vh;
@@ -335,7 +335,7 @@ body {
     z-index: 1;
     position: absolute;
     left: 0%;
-    bottom: -230%;
+    bottom: -240%;
 }
 
 .container6 .saibamais .saibamaisShippuden {
@@ -384,7 +384,7 @@ body {
     z-index: 1;
     position: absolute;
     right: 0%;
-    bottom: -310%;
+    bottom: -330%;
     margin-right: 180px;
 }
 
@@ -468,12 +468,22 @@ body {
 .container8 .valores{
     width: 40%;
     height: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border: 1px solid white;
+}
+.container8 .valores .valores_texto{
+    width: 30%;
 }
 .container8 .valores p{
     color: white;
+    height: 250px;
 }
-
+.container8 .valores h1{
+    color: white;
+    font-size: 25px;
+}
 
 
 footer {

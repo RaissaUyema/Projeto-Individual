@@ -9,7 +9,7 @@
     width: 100%;
     background-color: black;
  } 
-
+ 
  .header{
     display: flex;
     justify-content: flex-end;
@@ -32,6 +32,7 @@
  .header .titulo p{
     color: white;
     font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  } 
 
  .header .botao_home{
@@ -58,11 +59,22 @@
  
 
 
+ .legenda_grande{
+   font-size: 15px;
+   width: 100%;
+   height: 25px;
 
+   display: flex;
+   justify-content: center;
+ }
+ .legenda_pequena{
+   font-size: 20px;
+   width: 100%;
+   height: 25px;
 
-
-
-
+   display: flex;
+   justify-content: center;
+ }
  .container{
    width: 100%;
    height: 100vh;
@@ -78,20 +90,27 @@
     padding: 19px;
  }
  .container .historia{
-   width: 77%;
+   width: 77%; 
    height: 100vh;
    display: flex;
    flex-direction: column;
 } 
 
 /* parte1 */
+.container .historia .parte1{
+   width:100% ;
+   height: 430px;
+   /* background-color: brown; */
+ }
  .container .historia .parte1 .texto{
     width: 100%;
     height: 450px;
-    color: white;
     display: flex;
     flex-direction: column;
-
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
     /* background-color: blue; */
  }
  .container .historia .parte1 .imagens{
@@ -100,16 +119,6 @@
    width: 100%;
    height: 540px;
    align-items: center;
- }
- .container .historia .parte1 .texto p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    height: 100px;
- }
- #descricao1{
-   font-size: 10px;
-   width: 100%;
-   height: 10px;
  }
 
 /* parte2 */
@@ -125,12 +134,13 @@
       display: flex;
       flex-direction: column;
 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 25px;
       color: white;
    }
 .container .historia .parte2 .imagens{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    align-items: center;
    width: 100%;
    height: 300px;
@@ -151,6 +161,7 @@
       display: flex;
       flex-direction: column;
 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 25px;
       color: white;
    }
@@ -175,6 +186,7 @@
       display: flex;
       flex-direction: column;
 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 25px;
       color: white;
    }
@@ -197,6 +209,7 @@
       display: flex;
       flex-direction: column;
 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 25px;
       color: white;
    }
@@ -223,11 +236,12 @@
       flex-direction: column;
 
       font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: white;
    }
 .container .historia .parte6 .imagens{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    align-items: center;
    width: 100%;
    height: 400px;
