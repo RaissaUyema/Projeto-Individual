@@ -110,7 +110,7 @@
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 28px;
     /* background-color: blue; */
  }
  .container .historia .parte1 .imagens{
@@ -135,7 +135,7 @@
       flex-direction: column;
 
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 25px;
+      font-size: 28px;
       color: white;
    }
 .container .historia .parte2 .imagens{
@@ -162,7 +162,7 @@
       flex-direction: column;
 
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 25px;
+      font-size: 28px;
       color: white;
    }
 .container .historia .parte3 .imagens{
@@ -187,7 +187,7 @@
       flex-direction: column;
 
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 25px;
+      font-size: 28px;
       color: white;
    }
 .container .historia .parte4 .imagens{
@@ -210,7 +210,7 @@
       flex-direction: column;
 
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 25px;
+      font-size: 28px;
       color: white;
    }
 .container .historia .parte5 .imagens{
@@ -235,7 +235,7 @@
       display: flex;
       flex-direction: column;
 
-      font-size: 25px;
+      font-size: 28px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: white;
    }
