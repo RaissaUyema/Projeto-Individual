@@ -1,5 +1,5 @@
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 .container{
@@ -12,7 +12,7 @@
     padding: 8px;
 
     background-color: aqua;
-} 
+}
  
 .container .personagens .titulo{
     width: 100%;
@@ -42,7 +42,7 @@
     justify-content: space-around;
     display: flex;
     margin-top: 5px;
-}
+} 
 .container .personagens .fileira4{
     justify-content: space-around;
     display: flex;
