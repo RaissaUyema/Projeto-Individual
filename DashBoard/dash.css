@@ -40,6 +40,10 @@
 
     border: 1px solid rgb(26, 205, 62);
 }
+.dashboard .lateral_esquerda .botao button{
+    width: 40%;
+    height: 40px;
+}
 
 
 
