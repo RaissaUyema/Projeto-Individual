@@ -11,40 +11,80 @@
 
 .dashboard .lateral_esquerda{
     width: 30%;
-    height: 732px;
+    height: 730px;
 
     background-color: aqua;
 }
+.dashboard .lateral_esquerda .logo{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.dashboard .lateral_esquerda .texto{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    border: 1px solid rgb(205, 26, 26);
+}
+.dashboard .lateral_esquerda .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+
+    border: 1px solid rgb(26, 205, 62);
+}
+
 
 
 
 
 .dashboard .lateral_direita{
     width: 70%;
-    height: 732px;
+    height: 730px;
 
-    background-color: pink;
+    background-color: black;
 }
 
 .dashboard .lateral_direita .fileira1 {
     background-color: chocolate;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     width: 100%;
     height: 350px;
+    align-items: center;
 }
 .dashboard .lateral_direita .fileira1 .grafico{
-    width: 45%;
-    height: 340px;
+    width: 35%;
+    height: 320px;
+    border-radius: 15px;
 
     border: 1px solid white;
 }
 
 
+
 .dashboard .lateral_direita .fileira2 {
     background-color: rgb(30, 210, 138);
 
+    justify-content: space-evenly;
+    display: flex;
     width: 100%;
     height: 350px;
+    margin-top: 25px;
+    align-items: center;
+}
+.dashboard .lateral_direita .fileira2 .grafico{
+    width: 35%;
+    height: 320px;
+    border-radius: 15px;
+
+    border: 1px solid white;
 }
