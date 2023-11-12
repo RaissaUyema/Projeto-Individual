@@ -4,30 +4,44 @@
 }
 .container{
     display: flex;
+    justify-content: flex-end;
 }
 .container .texto_personagens{
     width: 15%;
     height: 1170px;
-    font-size: 25px;
+    font-size: 14px;
     padding: 8px;
-
-    background-color: aqua;
+    color: white;
+    background-color: black;
+    /* background-color: aqua; */
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
 } 
  
+.container .texto_personagens button{
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+}
+
 .container .personagens .titulo{
     width: 100%;
     height: 70px;
     font-size: 30px;
     display: flex;
     justify-content: center;
+    color: white;
 }
 .container .personagens{
     width: 85%;
-    height: 2550px;
+    height: 2250px;
     display: flex;
     flex-direction: column;
+    
 
-    background-color: pink;
+    background-color: black;
+    /* background-color: pink; */
 }
 .container .personagens .fileira1{
     justify-content: space-around;
