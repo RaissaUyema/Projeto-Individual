@@ -6,32 +6,56 @@
     display: flex;
     justify-content: flex-end;
 }
+
+
+
 .container .texto_personagens{
     width: 15%;
     height: 1170px;
-    font-size: 14px;
+    font-size: 24.5px;
     padding: 8px;
     color: white;
     background-color: black;
-    /* background-color: aqua; */
     overflow-y: auto;
     position: fixed;
     left: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
  
 .container .texto_personagens button{
     width: 90%;
-    height: 40px;
+    height: 50px;
     border-radius: 3px;
 }
+
+
+
 
 .container .personagens .titulo{
     width: 100%;
     height: 70px;
     font-size: 30px;
     display: flex;
-    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+}
+.container .personagens .titulo .titulo_personagens{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+}
+.container .personagens .titulo .botao_home{
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container .personagens .titulo button{
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #ee7331e1;
+    color: black;
 }
 .container .personagens{
     width: 85%;
