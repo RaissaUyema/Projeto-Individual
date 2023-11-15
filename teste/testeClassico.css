@@ -49,7 +49,7 @@
     height: 35px;
     width: 27.3%;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 15px;
     background-color:  rgba(207, 89, 21, 0.712);
  }
  .header .botao_home button a{
@@ -58,29 +58,30 @@
  }
  .container{
    width: 100%;
-   height: 100vh;
+   height: 600px;
    display: flex;
    justify-content: flex-end;
  }
  .container .imagem{
     width: 20%;
     height: 550px;
-    margin-top: 5px;
+    padding: 15px;
+    bottom: -15px;
     position: fixed; 
     left: 0;
-    padding: 19px;
+    padding: 30px;
  }
  .container .historia{
    width: 75%; 
-   height: 100vh;
+   height: 600px;
    display: flex;
    flex-direction: column;
 } 
 
 /* parte1 */
- .container .historia .parte1 .texto{
-    width: 100%;
-    height: 600px;
+ .container .historia .texto{
+    width: 90%;
+    height: 200px;
     display: flex;
     align-items: center;
     color: white;
@@ -88,137 +89,21 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
- .container .historia .parte1 .imagens{
-   /* display: flex; */
-   justify-content: space-around;
-   width: 75%;
-   height: 100px;
-   align-items: center;
- }
-
- .container .historia .parte1 .texto p{
+ .container .historia .texto p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 17.5px;
     height: 100px;
  }
- #descricao1{
-   font-size: 10px;
-   width: 100%;
-   height: 10px;
- }
-
-/* parte2
- .container .historia .parte2{
-   width:100% ;
-   height: 410px;
-   
- }
- .container .historia .parte2 .texto{
-      width:100% ;
-      height: 450px;
-      display: flex;
-      flex-direction: column;
-
-      font-size: 25px;
-      color: white;
-   }
-.container .historia .parte2 .imagens{
+ .container .historia .video{
    display: flex;
-   justify-content: space-around;
-   align-items: center;
-   width: 100%;
-   height: 300px;
-   
-}
-
- 
-parte3
-.container .historia .parte3{
-   width:100% ;
-   height: 450px;
-   
- }
- .container .historia .parte3 .texto{
-      width:100% ;
-      height: 500px;
-      display: flex;
-      flex-direction: column;
-
-      font-size: 25px;
-      color: white;
-   }
-.container .historia .parte3 .imagens{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   width: 100%;
-   height: 300px;
-}
-   
-parte4
-.container .historia .parte4{
-   width:100% ;
-   height: 700px;
-   
- }
- .container .historia .parte4 .texto{
-      width:100% ;
-      height: 450px;
-      display: flex;
-      flex-direction: column;
-
-      font-size: 25px;
-      color: white;
-   }
-.container .historia .parte4 .imagens{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-}
-
-parte5
-.container .historia .parte5{
-   width:100% ;
-   height: 750px;
-   
- }
- .container .historia .parte5 .texto{
-      width:100% ;
-      height: 500px;
-      display: flex;
-      flex-direction: column;
-
-      font-size: 25px;
-      color: white;
-   }
-.container .historia .parte5 .imagens{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   width: 100%;
-   height: 400px;
-}
-
-
-parte6
-.container .historia .parte6{
-   width:100% ;
+   justify-content: center;
    height: 500px;
-   
- }
- .container .historia .parte6 .texto{
-      width:100% ;
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-
-      font-size: 25px;
-      color: white;
-   }
-.container .historia .parte6 .imagens{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
    width: 100%;
-   height: 400px;
-} */
+ }
+ .container .historia .video video{
+   width: 90%;
+   height: 500px;
+   margin: 5;
+ }
+ 
+ 
