@@ -1,83 +1,62 @@
 *{
-    margin: 0;
-    padding: 0;
- }
- body{
-    background-image: url(../imagem/VILAR.jpg);
-    backdrop-filter: brightness(0.2);
-    height: 100vh;
-    width: 100%;
- }
-
- .header{
-    display: flex;
- }
-
- .header .logo{
-    padding: 5px;
-    width: 50%;
- }
-
-.header .titulo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 15px;
+   margin: 0;
+   padding: 0;
+} 
+.header{
+   width: 100%;
+   height: 55px;
+   display: flex;
+   background-color: black;
+}
+.header .titulo{
+   width: 60%;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   font-size: 60px;
+   color: white;
+}
+.header .logo{
+   width: 20%;
+   padding: 4px;
+}
+.header .botao{
+   width: 20%;
+   display: flex;
+   justify-content: flex-end;
+   padding: 4px;
+}
+.header .botao button{
+   width: 30%;
+   height: 30px;
+   border-radius: 10px;
+   background-color: #EE7331;
+   font-size: 20px;
 }
 
- .header .titulo p{
-    color: white;
-    font-size: 49px;
- }
 
- .header .botao_home{
-    width: 24.8%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 7px;
- }
- .header .botao_home button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 36%;
-    border-radius: 15px;
-    font-size: 20px;
-    background-color: rgba(207, 89, 21, 0.447);
- }
- .header .botao_home button a{
-    text-decoration: none;
-    color: black;
- } 
+.container .fileira{
+   display: flex;
+   width: 100%;
+   height: 337px;
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
 
- .container{
-    display: flex;
-    padding: 0 15px;
- }
+   background-color: rgb(0, 0, 0);
+}
+.container .fileira .texto{
+   width: 30%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
 
- .container .imagem{
-    padding: 0 70px;
-    width: 20%;
-    height: 550px;
-    margin-top: 25px;
- }
+}
+.container .fileira .video1{
+   width: 33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
- .container .texto{
-    width: 70%;
-    height: 555px;
-    display: flex;
-    padding: 0 25px;
-    color: white;
-    margin-top: 13px;
-    
- }
-
- .container .texto p{
-    background-color: rgba(0, 0, 0, 0.529);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 33.7px;
-    height: 560px;
-
- }
+}
