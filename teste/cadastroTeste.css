@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 610px;
+}
+.main .container{
+    width: 50%;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+}
+.main .container h3{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+}
+.main .container .inputs{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+.main .container input{
+    width: 55%;
+    height: 25px;
+    justify-content: space-evenly;
+}
+.main .container button{
+    width: 20%;
+    height: 30px;
+}
+
+.main .imagem{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
