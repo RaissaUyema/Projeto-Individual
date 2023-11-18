@@ -1,0 +1,248 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    /* background-image: url(../imagem/VILAR.jpg);
+    backdrop-filter: brightness(0.2); */
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+ } 
+ 
+ .header{
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .header .logo{
+    padding: 5px;
+    width: 55%;
+    position: fixed;
+    left: 0;
+ }
+
+.header .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+ .header .titulo p{
+    color: white;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ } 
+
+ .header .botao_home{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 7px;
+ }
+ .header .botao_home button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 27.3%;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color:  rgba(207, 89, 21, 0.712);
+ }
+ .header .botao_home button a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+
+
+ .legenda_grande{
+   font-size: 15px;
+   width: 100%;
+   height: 25px;
+
+   display: flex;
+   justify-content: center;
+ }
+ .legenda_pequena{
+   font-size: 20px;
+   width: 100%;
+   height: 25px;
+
+   display: flex;
+   justify-content: center;
+ }
+ .container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: flex-end;
+ }
+ .container .imagem{
+    width: 20%;
+    height: 550px;
+    margin-top: 5px;
+    position: fixed; 
+    left: 0;
+    padding: 19px;
+ }
+ .container .historia{
+   width: 77%; 
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+} 
+
+/* parte1 */
+.container .historia .parte1{
+   width:100% ;
+   height: 430px;
+   /* background-color: brown; */
+ }
+ .container .historia .parte1 .texto{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 28px;
+    /* background-color: blue; */
+ }
+ .container .historia .parte1 .imagens{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 540px;
+   align-items: center;
+ }
+
+/* parte2 */
+ .container .historia .parte2{
+   width:100% ;
+   height: 410px;
+   /* background-color: brown; */
+   
+ }
+ .container .historia .parte2 .texto{
+      width:100% ;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      color: white;
+   }
+.container .historia .parte2 .imagens{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 300px;
+   
+}
+
+ 
+/* parte3 */
+.container .historia .parte3{
+   width:100% ;
+   height: 450px;
+   /* background-color: rgb(42, 165, 65); */
+   
+ }
+ .container .historia .parte3 .texto{
+      width:100% ;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      color: white;
+   }
+.container .historia .parte3 .imagens{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: 300px;
+}
+   
+/* parte4 */
+.container .historia .parte4{
+   width:100% ;
+   height: 700px;
+   /* background-color: rgb(165, 42, 132); */
+   
+ }
+ .container .historia .parte4 .texto{
+      width:100% ;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      color: white;
+   }
+.container .historia .parte4 .imagens{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/* parte5 */
+.container .historia .parte5{
+   width:100% ;
+   height: 750px;
+   /* background-color: rgb(110, 42, 165); */
+   
+ }
+ .container .historia .parte5 .texto{
+      width:100% ;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 28px;
+      color: white;
+   }
+.container .historia .parte5 .imagens{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: 400px;
+}
+
+
+/* parte6 */
+.container .historia .parte6{
+   width:100% ;
+   height: 500px;
+   /* background-color: rgb(165, 108, 42); */
+   
+ }
+ .container .historia .parte6 .texto{
+      width:100% ;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+
+      font-size: 28px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+   }
+.container .historia .parte6 .imagens{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 400px;
+}
