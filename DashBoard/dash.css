@@ -4,9 +4,9 @@
 }
 
 .dashboard{
-    width: 100%;
+    width: 100%; 
     height: 100vh; 
-    display: flex;
+    display: flex; 
 }
 
 .dashboard .lateral_esquerda{
@@ -17,21 +17,77 @@
 }
 .dashboard .lateral_esquerda .logo{
     width: 100%;
-    height: 150px;
+    height: 205px;
     padding: 5px;
     /* border: 1px solid white; */
 }
-.dashboard .lateral_esquerda .texto{
+
+
+
+
+
+
+
+
+
+
+.dashboard .lateral_esquerda .rankingn{
     width: 90%;
-    height: 400px;
+    height: 370px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 20px;
+    /* justify-content: space-evenly; */
+    /* padding: 20px; */
     color: white;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
 
-    /* border: 1px solid rgb(205, 26, 26); */
+    border: 1px solid rgb(205, 26, 26);
 }
+
+.rankingn ul{
+    display: flex;
+    flex-direction: column;
+
+
+    border: 1px solid aqua;
+}
+.rankingn li{
+    display: flex;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    background-color: palevioletred;
+}
+.rankingn li span:first-child{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.rankingn li p {
+    font-size: 15px;
+}
+.rankingn li span:last-child{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    width: 270px;
+    height: 33px;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
 .dashboard .lateral_esquerda .botao{
     display: flex;
     justify-content: center;
@@ -41,9 +97,12 @@
 
     /* border: 1px solid rgb(26, 205, 62); */
 }
-.dashboard .lateral_esquerda .botao button{
-    width: 40%;
-    height: 40px;
+.dashboard .lateral_esquerda .botao img{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

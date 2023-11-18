@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     width: 39%;
     height: 448px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: rgba(70, 75, 75, 0.377);
     border-radius: 15px;
