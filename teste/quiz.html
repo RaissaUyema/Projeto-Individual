@@ -1,49 +1,90 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
- </head>
- <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quiz</title>
+   <link rel="stylesheet" href="../public/css/quiz.css">
+</head>
+<body>
 <div class="main">
-       
-       <div class="container hide">
-           <h3>Instrução:</h3>
-           <p>Total de questões: <span class="total_questoes">5</span> </p>
-           <button class="botao">Começar Quiz</button>
-       </div>
+      
+      <div class="container hide">
+          <h3>Instrução:</h3>
+          <p>Total de questões: <span class="total_questoes">5</span> </p>
+          <button class="botao">Começar Quiz</button>
+      </div>
 
-       <div class="container_quiz">
-            <div class="numero_questao">
-                Questão 1 de 5
-            </div>
+      <div class="container_quiz ">
+           <div class="numero_questao">
+               <!-- Questão 1 de 5 -->
+           </div>
 
-            <div class="texto_questao">
-                Qual é o clã de Sasuke?
-            </div>
+           <div class="texto_questao">
+               <!-- Qual é o clã de Sasuke? -->
+           </div>
 
-            <div class="opcao_container">
-                <div class="opcao">Uzumaki</div>
-                <div class="opcao">Hyuga</div>
-                <div class="opcao">Uchiha</div>
-                <div class="opcao">Nara</div>
-            </div>
+           <div class="opcao_container">
+               <!-- <div class="opcao">Uzumaki</div>
+               <div class="opcao">Hyuga</div>
+               <div class="opcao">Uchiha</div>
+               <div class="opcao">Nara</div> -->
+           </div>
 
-            <div class="botao">
-                <button type="button" class="btn">próxima</button>
-            </div>
+           <div class="botao">
+               <button type="button" class="btn" onclick="proxima()">Próxima</button>
+           </div>
 
-            <div class="resposta_indicador">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-       </div>
+           <div class="resposta_indicador">
+               <!-- <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div> -->
+           </div>
+      </div>
 
+      <div class="resultado_quiz hide">
+           <h1>Resultado do Quiz</h1>
+           <table>
+               <tr>
+                   <td>Total de Questões</td>
+                   <td> <span class="total_questoes">5</span> </td>
+               </tr>
+
+               <tr>
+                   <td>Tentativa</td>
+                   <td> <span class="total_tentativa">4</span> </td>
+               </tr>
+
+               <tr>
+                   <td>Correto</td>
+                   <td> <span class="total_correto">3</span> </td>
+               </tr>
+
+               <tr>
+                   <td>Errado</td>
+                   <td> <span class="total_errado">1</span> </td>
+               </tr>
+
+               <tr>
+                   <td>Porcentagem</td>
+                   <td> <span class="porcentagem">60.00%</span> </td>
+               </tr>
+
+               <tr>
+                   <td>sua pontuação total</td>
+                   <td> <span class="total_pontuacao">3 / 5</span> </td>
+               </tr>
+           </table>
+
+           <button type="button" class="btn">Tente novamente</button>
+           <button type="button" class="btn">Voltar para o Home</button>
+      </div>
+
+
+      <script src="js/quiz.js"></script>
+      <script src="js/app.js"></script>
 </div>
- </body>
- </html>
+</body>
+</html>
