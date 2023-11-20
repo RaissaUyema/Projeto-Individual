@@ -11,7 +11,7 @@ var container_dash = document.querySelector(".container_dash");
 var container = document.querySelector(".container")
 
 var limite_de_questoes = 5;
-var contador_questoes = 0;
+var contador_questoes = 0; 
 var questao_atual;
 // var dificuldade; 
 var questoes_disponiveis = [];
@@ -20,13 +20,6 @@ var respostas_corretas = 0;
 var respostas_incorretas = 0;
 var tentativa = 0;
 
-//Variáveis Globais de acertos e erros por dificuldade e geral
-// var acertos_faceis = 0;
-// var acertos_medios = 0;
-// var acertos_dificeis = 0;
-// var erros_faceis = 0;
-// var erros_medios = 0;
-// var erros_dificeis = 0;
 
 function set_questoes_disponiveis() {
   var total_questoes = quiz.length;
@@ -43,12 +36,10 @@ function nova_questao() {
     ];
   questao_atual = indice_questoes;
   texto_questao.innerHTML = questao_atual.q;
-  // dificuldade = questao_atual.dificuldade;
 
   num_questao.innerHTML = `Questão ${
     contador_questoes + 1
   } de ${limite_de_questoes}`;
-  // <br>Dificuldade: ${dificuldade}
 
   var index1 = questoes_disponiveis.indexOf(indice_questoes);
   questoes_disponiveis.splice(index1, 1);
@@ -88,25 +79,11 @@ function pegar_resultado(element) {
     element.classList.add("correto");
     atualizar_indicador_resposta("correto");
     respostas_corretas++;
-    // if (dificuldade === "Fácil") {
-    //   acertos_faceis++;
-    // } else if (dificuldade === "Média") {
-    //   acertos_medios++;
-    // } else if (dificuldade === "Díficil") {
-    //   acertos_dificeis++;
-    // }
+
   } else {
     element.classList.add("incorreto");
     atualizar_indicador_resposta("incorreto");
     respostas_incorretas++;
-  //   if (dificuldade === "Fácil") {
-  //     erros_faceis++;
-  //   } else if (dificuldade === "Média") {
-  //     erros_medios++;
-  //   } else if (dificuldade === "Díficil") {
-  //     erros_dificeis++;
-  //   }
-  // }
   }
 
   var opcao_len = container_opcoes.children.length;
@@ -166,14 +143,6 @@ function fim_quiz() {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      // crie um atributo que recebe o valor recuperado aqui
-      // Agora vá para o arquivo routes/usuario.js
-      // acertos_faceisServer: acertos_faceis,
-      // erros_faceisServer: erros_faceis,
-      // acertos_mediosServer: acertos_medios,
-      // erros_mediosServer: erros_medios,
-      // acertos_dificeisServer: acertos_dificeis,
-      // erros_dificeisServer: erros_dificeis,
       respostas_corretasServer: respostas_corretas,
       respostas_incorretasServer: respostas_incorretas,
       fkUsuarioServer: sessionStorage.ID_USUARIO 
@@ -213,12 +182,6 @@ function resetar_quiz() {
   respostas_corretas = 0;
   respostas_incorretas = 0;
   tentativa = 0;
-  // acertos_faceis = 0;
-  // acertos_medios = 0;
-  // acertos_dificeis = 0;
-  // erros_faceis = 0;
-  // erros_medios = 0;
-  // erros_dificeis = 0;
   questoes_disponiveis = [];
 }
 
@@ -261,5 +224,5 @@ function desaparecer_pref () {
 window.onload = function () {
   container_casa.querySelector(".total_questoes").innerHTML =
     limite_de_questoes;
-    setTimeout(desaparecer_pref, 5000)
+    setTimeout(desaparecer_pref, 2500)
 };

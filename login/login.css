@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
- }  
+ }   
   
  body {
     background-image: url(../imagem/VILAR.jpg);
@@ -31,6 +31,10 @@
  
      align-items: center;
      justify-content: center;
+ }
+ .header .botao_voltar a{
+    text-decoration: none;
+    color: black;
  }
  
  .main {

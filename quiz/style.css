@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-size: 16px;
-    background-image: url(../../imagem/quadrinho.jpg);
+    background-image: url(../imagem/quadrinho\ -\ Copia.jpg);
   }
    
   * {
@@ -9,11 +9,35 @@ body {
     margin: 0;
     padding: 0;
     outline: none;
-  } 
-  
+  }  
+  .header{
+    width: 100%;
+    height: 50px;
+  }
+  .header .botao_voltar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+  .header .botao_voltar button{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE7331;
+  }
+  .header .botao_voltar button a{
+    text-decoration: none;
+    color: #000000;
+  }
+
   .container_personalizado {
     max-width: 700px;
-    background-color: #8c4e2a;
+    background-color: #EE7331;
     margin: 70px auto;
     padding: 30px;
     border-radius: 10px;
@@ -57,7 +81,7 @@ body {
   
   .container_casa h3 {
     font-size: 18px;
-    color: #FFF;
+    color: #000000;
     font-weight: bold;
     margin-bottom: 15px;
     line-height: 25px;
@@ -67,7 +91,7 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
     line-height: 22px;
-    color: #FFF;
+    color: #000000;
     font-weight: lighter;
   }
   
@@ -77,8 +101,8 @@ body {
   
   .btn {
     padding: 15px 45px;
-    background-color: #FFF;
-    color: #000;
+    background-color: #000000;
+    color: #ffffff;
     border: none;
     border-radius: 10px;
     font-family: "Montserrat", sans-serif;
@@ -88,7 +112,7 @@ body {
   }
   
   .btn:hover {
-    background-color: #ffffffce;
+    background-color: #000000ce;
   }
   
   .container_quiz .num_questao,
@@ -102,7 +126,7 @@ body {
   
   .container_quiz .num_questao {
     font-size: 18px;
-    color: #FFF;
+    color: #000000;
     font-weight: 600;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 10px;
@@ -111,7 +135,7 @@ body {
   
   .container_quiz .texto_questao {
     font-size: 22px;
-    color: #FFF;
+    color: #000000;
     line-height: 28px;
     font-weight: 400;
     padding: 20px 0;
@@ -119,8 +143,8 @@ body {
   }
   
   .container_quiz .container_opcoes .opcao {
-    background-color: #FFF;
-    color: #000;
+    background-color: #000000;
+    color: #ffffff;
     padding: 13px 15px;
     font-size: 16px;
     line-height: 22px;
@@ -181,11 +205,11 @@ body {
   }
   
   .container_quiz .container_opcoes .opcao.correto {
-    color: #fff;
+    color: #000000;
   }
   
   .container_quiz .container_opcoes .opcao.incorreto {
-    color: #fff;
+    color: #000000;
   }
   
   .container_quiz .btn {
@@ -193,14 +217,14 @@ body {
   }
   
   .container_quiz .indicador_respostas {
-    border-top: solid 1px #FFF;
+    border-top: solid 1px #000000;
   }
   
   .container_quiz .indicador_respostas div {
     height: 40px;
     width: 40px;
     display: inline-block;
-    background-color: #FFF;
+    background-color: #000000;
     border-radius: 50%;
     margin-right: 3px;
     margin-top: 15px;
@@ -208,7 +232,7 @@ body {
   
   .container_quiz .indicador_respostas div.correto {
     background-color: green;
-    background-image: url(media/correct.png);
+    /* background-image: url(media/correct.png); */
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -216,7 +240,7 @@ body {
   
   .container_quiz .indicador_respostas div.incorreto {
     background-color: red;
-    background-image: url(media/wrong.png);
+    /* background-image: url(media/wrong.png); */
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -233,7 +257,7 @@ body {
   .container_resultado h1 {
     font-size: 36px;
     line-height: 42px;
-    color: #FFF;
+    color: #000000;
   }
   
   .container_resultado table {
@@ -246,7 +270,7 @@ body {
     border: 1px solid #cccccc;
     padding: 8px 15px;
     font-weight: bolder;
-    color: #FFF;
+    color: #000000;
     width: 50%;
     text-align: left;
     font-size: 18px;
@@ -255,7 +279,7 @@ body {
   .container_dash {
     font-size: 24px;
     line-height: 42px;
-    color: #FFF;
+    color: #000000;
     text-align: center;
     max-width: 1000px;
   }

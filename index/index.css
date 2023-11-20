@@ -243,7 +243,10 @@ body {
     justify-content: center;
     margin-top: 15px;
 }
-
+.container5 h1{
+    color: white;
+    font-size: 70px;
+}
 .container5 .imagem_jogo{
     display: flex;
     align-items: center;
@@ -331,6 +334,10 @@ body {
     box-shadow: 0.1em 0.1em rgb((0, 0, 0) 1);
     background-color: #EE7331;
 }
+.container6 .saibamaisClassico .botao button a{
+    text-decoration: none;
+    color: black;
+}
 .container6 .saibamais .saibamaisClassico .imagem_classico{
     z-index: 1;
     position: absolute;
@@ -380,48 +387,17 @@ body {
     font-size: 30px;
     background-color: #EE7331;
 }
+.container6 .saibamais .saibamaisShippuden .botao button a{
+    text-decoration: none;
+    color: black;
+}
 .container6 .saibamais .saibamaisShippuden .imagem_shippuden{
     z-index: 1;
     position: absolute;
     right: 0%;
-    bottom: -330%;
+    bottom: -328%;
     margin-right: 180px;
 }
-
-/* .css-button-retro--sand {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border: 1px solid #000;
-    color: #000;
-    background: transparent;
-    z-index: 0;
-  }
-  .css-button-retro--sand:hover:after {
-    top: 0;
-    left: 0;
-  }
-  .css-button-retro--sand:after {
-    content: "";
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 5px;
-    left: 5px;
-    transition: 0.2s;
-    background-color: #ced4da;
-  } */
-
-
-
 
 .container7{
     display: flex;
@@ -508,7 +484,7 @@ body {
     width: 30%;
 }
 .container8 .valores p{
-    color: white;
+    color: white; 
     height: 250px;
 }
 .container8 .valores h1{

@@ -3,7 +3,7 @@
   function sobre_person(){
     var modal = document.getElementById('modal_informacao_person');
     var person = tipo_person;
-
+ 
     if(person == 'naruto'){
         imagem_informacao_person.innerHTML = `<img src="../imagem/narutooo.jpg" width="280px">`;
         sobre_informacao_person.innerHTML =`loremloremloremloremloremloremloremloremloremloremloerme`
