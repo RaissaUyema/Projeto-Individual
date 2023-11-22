@@ -11,7 +11,7 @@ var quiz = [
       q: "Qual é o nome do sensei de Naruto na Academia Ninja?",
       opcoes: ['Jiraiya', 'Iruka', 'Kakashi', 'Tsunade'],
       resposta: 1
-    },  
+    },   
   
     {
       q: "Qual é o elemento de chakra principal de Naruto?",

@@ -10,7 +10,7 @@ var container_resultado = document.querySelector(".container_resultado");
 var container_dash = document.querySelector(".container_dash");
 var container = document.querySelector(".container")
 
-var limite_de_questoes = 5;
+var limite_de_questoes = 5; 
 var contador_questoes = 0; 
 var questao_atual;
 // var dificuldade; 
